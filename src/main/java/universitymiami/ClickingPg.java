@@ -19,6 +19,6 @@ public class ClickingPg {
 	  driver.findElement(By.xpath("//*[@id=\"global_footer\"]/div[1]/div[2]/div[3]/ul/li[8]/a")).click();
 	  driver.findElement(By.xpath("//*[@id=\"typehead\"]")).sendKeys("Software Tester");
 	  driver.findElement(By.xpath("//*[@id=\"gllocationInput\"]")).sendKeys("Kechi, kansas, united states");
-	  driver.findElement(By.xpath("//*[@id=\"ph-search-backdrop\"]/span")).submit();
+	  driver.findElement(By.xpath("//*[@id=\"ph-search-backdrop\"]/span")).click();
    }
 }
